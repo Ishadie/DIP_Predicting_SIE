@@ -19,3 +19,8 @@ Data is pre-processed using the following image processing techniques:
 
 
 ## Feature Extraction from Polar Image Data
+
+From the pre-processed images, three handcrafted features - ice coverage, ice retreat percentage from the previous year, and ice retreat percentage since 1979 are extracted by using the following techniques:
+
+
+
