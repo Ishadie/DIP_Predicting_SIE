@@ -27,5 +27,16 @@ Data is pre-processed using the following image processing techniques:
 
 From the pre-processed images, three handcrafted features - ice coverage, ice retreat percentage from the previous year, and ice retreat percentage since 1979 are extracted by using the following techniques:
 
+- ```Circular Masking```: Applies a circular binary mask to remove legends, borders, and background artifacts — leaving only the polar region.
+- ```Edge Detection```: Highlights the sharp boundaries of sea ice edges using the Canny operator, aiding in visual analysis and contour detection.
+- ```Contour Detection```: Extracts connected components (contours) from the ice mask and filters them based on area constraints
+- ```Ice Area Calculation```: Measures the pixel area of all valid contours. Computes the ice coverage as a percentage of the total image size
+- ```Image Subtraction```: Performs absolute pixel difference between two masks (previous vs. current year).
+- ```Retreated Area Calculation```: Computes retreat area as a percentage of total image area, based on the thresholded difference mask.
+- ```Overlay Visualization```: Draws transformed contours on the original image with color
+
+  ![image feature extraction](https://github.com/user-attachments/assets/b96bfb44-f209-4792-9d88-8e5035589a3a)
+
+
 
 
