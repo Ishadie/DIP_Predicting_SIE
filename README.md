@@ -1,5 +1,10 @@
-# DIP_Predicting_SIE
+# Satellite Image Processing in the Circumpolar North: Approaches for Understanding Climate Crisis by Predicting Arctic Sea Ice Extent 
+
 # Introduction
+Over the past few decades, extreme weather events have become more common and violent due to the retreat of the Arctic Sea ice, which has changed regional and global climate patterns. The satellite image patterns show enormous sea ice loss is critical to Arctic amplification. Arctic sea ice retreat due to climate change threatens the environment significantly. As a critical component that helps understand the climate crisis, changes in Arctic ice require accurate analysis and prediction. Various researchers have used machine learning and deep learning models for sea ice forecasting. 
+
+This research focuses on processing satellite images using digital image processing techniques and uses a deep learning model that takes multimodal data to analyze time series forecasting of future ice extent. We leverage image processing techniques such as Optical Character Recognition (OCR) for detecting the text of the image and handling missing data, Oriented FAST and Rotated BRIEF (ORB) for aligning images, low-pass filter for denoising satellite images, and Otsu’s thresholding for segmenting ice regions from land and ocean. We then use Canny Edge Detection for feature extraction to highlight sea ice boundaries. We extract contours, calculate the ice retreat percentage from the image, and finally, find changes in ice coverage using image subtraction. After processing the images, we use a transformer-based model to perform a time series prediction of future ice extent. The transformer-based model is designed in a way that it takes multimodal data, one modality is hand-crafted numerical features from satellite images while the other modality is processed satellite images. 
+
 # Digital Image Processing Techniques
 ## Pre-Processing Polar Image Data
 
