@@ -5,6 +5,10 @@ Over the past few decades, extreme weather events have become more common and vi
 
 This research focuses on processing satellite images using digital image processing techniques and uses a deep learning model that takes multimodal data to analyze time series forecasting of future ice extent. We leverage image processing techniques such as Optical Character Recognition (OCR) for detecting the text of the image and handling missing data, Oriented FAST and Rotated BRIEF (ORB) for aligning images, low-pass filter for denoising satellite images, and Otsu’s thresholding for segmenting ice regions from land and ocean. We then use Canny Edge Detection for feature extraction to highlight sea ice boundaries. We extract contours, calculate the ice retreat percentage from the image, and finally, find changes in ice coverage using image subtraction. After processing the images, we use a transformer-based model to perform a time series prediction of future ice extent. The transformer-based model is designed in a way that it takes multimodal data, one modality is hand-crafted numerical features from satellite images while the other modality is processed satellite images. 
 
+# Dataset
+We will use Arctic sea ice data acquired from the National Snow and Ice Data Center (NSIDC) in this research. The data we are using consists of images from July 16th to August 16th of the years 1979 to 2024. If there is no data at all for a day the image is labeled with “NO DATA”. The naming convention “h_yyyymmdd_extn_[blmrbl]_[hires]_vX.x.png” is used for labeling the images. 
+The whole dataset is available ​​at https://noaadata.apps.nsidc.org/NOAA/G02135/north/daily/images/
+
 # Digital Image Processing Techniques
 ## Pre-Processing Polar Image Data
 
