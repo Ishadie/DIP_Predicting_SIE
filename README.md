@@ -47,8 +47,15 @@ From the pre-processed images, three handcrafted features - ice coverage, ice re
 
 # Steps to Reproduce The Result
 Below is the description of each file and how the results can be reproduced.
-- To visualize and analyze how each image is processed and how the features are extracted, download and run this file [image_processing/imageProcessingSteps.ipynb](https://github.com/Ishadie/DIP_Predicting_SIE/blob/824f892fd395815935b731df3e0eec26ac37588e/image_processing/imageProcessingSteps.ipynb). Also, the images that are used here can be found in https://github.com/Ishadie/DIP_Predicting_SIE/tree/0b855763649b942985a759f5e363e46ad339db53/sample_image
-- 
+- To visualize and analyze how each image is processed and how the features are extracted, download and run this file [imageProcessingSteps.ipynb](https://github.com/Ishadie/DIP_Predicting_SIE/blob/824f892fd395815935b731df3e0eec26ac37588e/image_processing/imageProcessingSteps.ipynb). Also, the images that are used for analyzing can be found in [sample_image](https://github.com/Ishadie/DIP_Predicting_SIE/tree/0b855763649b942985a759f5e363e46ad339db53/sample_image)
+- For downloading data through the automated script and to pre-process and extract all the features from the image data, download and run this file [featureExtraction.ipynb](https://github.com/Ishadie/DIP_Predicting_SIE/blob/63cb10f94cbc99b2d7d5a4d0d20766033c4fb2ae/image_processing/featureExtraction.ipynb)
+  
+  ```Note:``` This step can be skipped to reproduce the result, as all the images are processed for years 1979-2024. The final dataset with extracted features can be found and used by downloading this CSV : [ice_extent_full_dataset.csv](https://github.com/Ishadie/DIP_Predicting_SIE/blob/63cb10f94cbc99b2d7d5a4d0d20766033c4fb2ae/ice_extent_full_dataset.csv) 
+
+- For the unimodal RNN model on numerical features, download and run this file [siePredictionRNN.ipynb](https://github.com/Ishadie/DIP_Predicting_SIE/blob/63cb10f94cbc99b2d7d5a4d0d20766033c4fb2ae/unimodal_approach/siePredictionRNN.ipynb)
+- For the unimodal Transformer-GRU model on numerical features, download and run this file [sieNumericalTransformerGRU.ipynb](https://github.com/Ishadie/DIP_Predicting_SIE/blob/63cb10f94cbc99b2d7d5a4d0d20766033c4fb2ae/unimodal_approach/sieNumericalTransformerGRU.ipynb)
+- Our main model: multimodal Transformer-GRU for Sea-Ice Extent Forecasting, can be found in [sieMultimodal.ipynb] (https://github.com/Ishadie/DIP_Predicting_SIE/blob/63cb10f94cbc99b2d7d5a4d0d20766033c4fb2ae/multimodal_approach/sieMultimodal.ipynb). Download and run this to reproduce the results.
+- The results we got from our experiment can be found in the folder: [results](https://github.com/Ishadie/DIP_Predicting_SIE/tree/63cb10f94cbc99b2d7d5a4d0d20766033c4fb2ae/results)
 
 
 
