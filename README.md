@@ -45,6 +45,14 @@ From the pre-processed images, three handcrafted features - ice coverage, ice re
 
   ![image feature extraction](https://github.com/user-attachments/assets/b96bfb44-f209-4792-9d88-8e5035589a3a)
 
+# Steps to Reproduce The Result
+Below is the description of each file and how the results can be reproduced.
+- To visualize and analyze how each image is processed and how the features are extracted, download and run this file [image_processing/imageProcessingSteps.ipynb](https://github.com/Ishadie/DIP_Predicting_SIE/blob/824f892fd395815935b731df3e0eec26ac37588e/image_processing/imageProcessingSteps.ipynb). Also, the images that are used here can be found in https://github.com/Ishadie/DIP_Predicting_SIE/tree/0b855763649b942985a759f5e363e46ad339db53/sample_image
+- 
+
+
+
+
 
 
 
