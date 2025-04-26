@@ -65,7 +65,7 @@ Below is the description of each file and how the results can be reproduced.
 
 - For the unimodal RNN model on numerical features, download and run this file [siePredictionRNN.ipynb](https://github.com/Ishadie/DIP_Predicting_SIE/blob/63cb10f94cbc99b2d7d5a4d0d20766033c4fb2ae/unimodal_approach/siePredictionRNN.ipynb)
 - For the unimodal Transformer-GRU model on numerical features, download and run this file [sieNumericalTransformerGRU.ipynb](https://github.com/Ishadie/DIP_Predicting_SIE/blob/63cb10f94cbc99b2d7d5a4d0d20766033c4fb2ae/unimodal_approach/sieNumericalTransformerGRU.ipynb)
-- Our main model: multimodal Transformer-GRU for Sea-Ice Extent Forecasting, can be found in [sieMultimodal.ipynb] (https://github.com/Ishadie/DIP_Predicting_SIE/blob/63cb10f94cbc99b2d7d5a4d0d20766033c4fb2ae/multimodal_approach/sieMultimodal.ipynb). Download and run this to reproduce the results.
+- Our main model, multimodal Transformer-GRU for Sea-Ice Extent Forecasting, can be found in [siePredictionMultimodalTransformerGRU.ipynb](https://github.com/Ishadie/DIP_Predicting_SIE/blob/3be26ab43b1c3f7db5daa2b9799d4221a32f4087/multimodal_approach/siePredictionMultimodalTransformerGRU.ipynb). Download and run this to reproduce the results.
 - The results we got from our experiment can be found in the folder: [results](https://github.com/Ishadie/DIP_Predicting_SIE/tree/63cb10f94cbc99b2d7d5a4d0d20766033c4fb2ae/results)
 
 
