@@ -54,7 +54,24 @@ From the pre-processed images, three handcrafted features - ice coverage, ice re
 
 - **Python** 3.8–3.11  
 - All other dependencies are listed in [requirements.txt](https://github.com/Ishadie/DIP_Predicting_SIE/blob/68ed61ca821070c29f7458a27990214f5ecb64b1/requirements.txt)
-  
+- You can install them using:
+````
+pip install -r requirements.txt
+````
+## Directory Structure Overview
+<pre> <code> 
+   
+  ├── sample_image/                                    # Contains example satellite images 
+  ├── results/                                         # Contains the model prediction outputs 
+  ├── logs/                                            # Optuna logs and final model logs 
+  ├── featureExtraction.ipynb                          # End-to-end image feature extraction 
+  ├── imageProcessingSteps.ipynb                       # Visualize and understand image preprocessing 
+  ├── siePredictionRNN.ipynb                           # RNN model (unimodal - numerical) 
+  ├── sieNumericalTransformerGRU.ipynb                 # Transformer+GRU model (unimodal - numerical) 
+  ├── siePredictionMultimodalTransformerGRU.ipynb      # Main model (multimodal) 
+  ├── ice_extent_full_dataset.csv                      # Final dataset with extracted features 
+  ├── requirements.txt  </code> </pre> 
+
 ## Training and Evaluation
 Below is the description of each file and how the results can be reproduced.
 
