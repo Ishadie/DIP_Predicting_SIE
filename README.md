@@ -96,7 +96,7 @@ jupyter notebook featureExtraction.ipynb
 
 ````
   
-  ```Note:``` This step can be skipped to reproduce the result, as all the images are processed for years 1979-2024. The final dataset with extracted features can be found and used by downloading this CSV : [ice_extent_full_dataset.csv](https://github.com/Ishadie/DIP_Predicting_SIE/blob/63cb10f94cbc99b2d7d5a4d0d20766033c4fb2ae/ice_extent_full_dataset.csv) 
+  ```Note:``` This step can be skipped to reproduce the result, as all the images are processed for years 1979-2024. The final dataset with extracted features and the sst data can be found and used by downloading this CSV : [ice_extent_with_sst.csv](https://github.com/Ishadie/DIP_Predicting_SIE/blob/dbceeadbe6fa6c98ca390eb307fd832ff3b46697/ice_extent_with_sst.csv)) 
 
 - For the unimodal RNN model on numerical features, download and run this file [siePredictionRNN.ipynb](https://github.com/Ishadie/DIP_Predicting_SIE/blob/63cb10f94cbc99b2d7d5a4d0d20766033c4fb2ae/unimodal_approach/siePredictionRNN.ipynb). In your terminal or command prompt, from the directory where the notebook file is located, run:
 ````
