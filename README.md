@@ -66,6 +66,8 @@ pip install notebook
 jupyter notebook
 python -m notebook
 ````
+- Please make sure you are in the root directory of the project when running the Jupyter commands
+- Use the same Python version and dependencies as listed to avoid runtime issues.
 ## Directory Structure Overview
 <pre> <code> 
    
