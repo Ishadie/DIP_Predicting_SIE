@@ -120,6 +120,11 @@ jupyter notebook siePredictionMultimodalModel.ipynb
 
 
 
+## Citation
+
+If you use this work in your research, please cite the following publication:
+
+Namir, I., Hussain, M.A., Ramanna, S., Liu, Q. and Kathiravelu, P., 2025. **Satellite image processing in the circumpolar north: Understanding climate crisis by predicting sea ice extent in the arctic.** Remote Sensing Applications: Society and Environment, p.101797.
 
 
 
